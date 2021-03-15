@@ -42,6 +42,7 @@ body{
 .personal_info>h3,p{
     background-color:  rgb(206, 177, 122);
     border: solid 2px;
+    width: fit-content;
 }
 
 .qualifications{
@@ -56,6 +57,11 @@ body{
     justify-content: left;
     align-items:center;
     padding-left: 15px;
+}
+.education>h3{
+    background-color:wheat ;
+    width: fit-content;
+    border: solid 2px;
 }
 .institutions{
     display: flex;
